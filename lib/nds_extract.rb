@@ -180,7 +180,7 @@ result2 = flatten_a_o_a(result1) ### flattens aoa
 result3 = gross_per_studio(result2) # should take directors_database[0][:movies][0]
 return result3
 end
-pp movies_with_directors_set(directors_database)
+
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
 # call code. You'll have to "see-saw" to get this to work!
