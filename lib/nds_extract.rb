@@ -113,7 +113,7 @@ result = Hash.new
 result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
 result.store("Universal",total3)
-result.store()
+result.store("Columbia", total3)
 pp result
 
 end
