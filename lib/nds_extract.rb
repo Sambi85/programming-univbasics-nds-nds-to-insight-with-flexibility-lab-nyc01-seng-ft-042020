@@ -112,7 +112,7 @@ end
 result = Hash.new
 result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
-result.store(studio3,total3)
+result.store("#{studio3}",total3)
 pp result
 
 end
