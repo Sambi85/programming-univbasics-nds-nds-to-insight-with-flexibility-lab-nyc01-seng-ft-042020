@@ -92,6 +92,7 @@ total11 = 0
 total12 = 0
 total13 = 0
 total14 = 0
+total15 = 0
 
 while row_index < collection.length do
 
@@ -104,8 +105,10 @@ total2 += collection[row_index][:worldwide_gross]
 else if collection[row_index][:studio] == "Universal"
 total3 += collection[row_index][:worldwide_gross]
         
-else if collection[row_index][:studio] == "Paramount"
+else if collection[row_index][:studio] == "Columbia"
 total4 += collection[row_index][:worldwide_gross]
+
+
           end        
         end
       end
@@ -117,17 +120,18 @@ result = Hash.new
 result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
 result.store("Universal",total3)
-result.store("Paramount",total4)
-result.store("Buena Vista", total5)
-result.store("Warner Brothers", total6)
-result.store("Fox", total7)
-result.store("TriStar", total8)
-result.store("Focus", total9)
-result.store("Dreamworks", total10)
-result.store("Weinstein", total11)
-result.store("Sony", total12)
-result.store("Miramax", total13)
-result.store("MGM", total14)
+result.store("Columbia",total4)
+result.store("Paramount",total5)
+result.store("Buena Vista", total6)
+result.store("Warner Brothers", total7)
+result.store("Fox", total8)
+result.store("TriStar", total9)
+result.store("Focus", total10)
+result.store("Dreamworks", total11)
+result.store("Weinstein", total12)
+result.store("Sony", total13)
+result.store("Miramax", total14)
+result.store("MGM", total15)
 
 pp result
 
