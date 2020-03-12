@@ -104,6 +104,7 @@ studio3 << "Universal"
 total3 += collection[row_index][:worldwide_gross]
         end
       end
+    end
   row_index += 1
 end
 
