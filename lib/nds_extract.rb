@@ -108,6 +108,8 @@ total3 += collection[row_index][:worldwide_gross]
 else if collection[row_index][:studio] == "Columbia"
 total4 += collection[row_index][:worldwide_gross]
 
+else if collection[row_index][:studio] == "Paramount"
+total5 += collection[row_index][:worldwide_gross]
 
           end        
         end
