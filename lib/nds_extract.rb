@@ -103,7 +103,7 @@ else if collection[row_index][:studio] != "Alpha Films" &&
  
 studio3 = collection[row_index][:studio]
 total3 += collection[row_index][:worldwide_gross]
-
+      end
     end
   end
 
