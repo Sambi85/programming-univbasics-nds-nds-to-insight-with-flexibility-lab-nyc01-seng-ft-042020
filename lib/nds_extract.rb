@@ -82,8 +82,6 @@ total1 = 0
 total2 = 0
 total3 = 0
 
-
-
 while row_index < collection.length do
 
 if collection[row_index][:studio] == "Alpha Films"
