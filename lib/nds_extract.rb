@@ -98,9 +98,10 @@ else if collection[row_index][:studio] == "Omega Films"
 studio2 = collection[row_index][:studio]
 total2 += collection[row_index][:worldwide_gross]
 
-else
+else if collection[row_index][:studio] != "Alpha Films" && 
+  collection[row_index][:studio] != "Omega Films"
  
-studio3 += collection[row_index][:studio]
+studio3 = collection[row_index][:studio]
 total3 += collection[row_index][:worldwide_gross]
 
     end
