@@ -103,7 +103,7 @@ studio3 = "Universal"
 total3 += collection[row_index][:worldwide_gross]
         
 else if collection[row_index][:studio] == "Paramount"
-studio3 = "Paramount"
+studio4 = "Paramount"
 total4 += collection[row_index][:worldwide_gross]
           end        
         end
@@ -169,10 +169,6 @@ end
 end
 result
 end
-### directors_database is [9 directors]{x2 keys name & movie}[6 movies]{title, studio, worldwide_gross,release_year}
-
-
-
 
 def studios_totals(directors_database)
 pp result1 = movies_with_directors_set(directors_database) ### turns to an aoa
