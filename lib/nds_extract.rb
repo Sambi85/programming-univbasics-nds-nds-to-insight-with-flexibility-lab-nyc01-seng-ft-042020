@@ -81,29 +81,21 @@ row_index = 0
 total1 = 0
 total2 = 0
 total3 = 0
-studio1 =
-studio2 =
-studio3 =
+
 
 
 while row_index < collection.length do
 
 if collection[row_index][:studio] == "Alpha Films"
-
-studio1 = collection[row_index][:studio]
 total1 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Omega Films"
-
-studio2 = collection[row_index][:studio]
 total2 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Universal"
-studio3 = "Universal"
 total3 += collection[row_index][:worldwide_gross]
         
 else if collection[row_index][:studio] == "Paramount"
-studio4 = "Paramount"
 total4 += collection[row_index][:worldwide_gross]
           end        
         end
@@ -117,16 +109,16 @@ result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
 result.store("Universal",total3)
 result.store("Paramount",total4)
-result.store("Buena Vista", total3)
-result.store("Warner Brothers", total3)
-result.store("Fox", total3)
-result.store("TriStar", total3)
-result.store("Focus", total3)
-result.store("Dreamworks", total3)
-result.store("Weinstein", total3)
-result.store("Sony", total3)
-result.store("Miramax", total3)
-result.store("MGM", total3)
+result.store("Buena Vista", total5)
+result.store("Warner Brothers", total6)
+result.store("Fox", total7)
+result.store("TriStar", total8)
+result.store("Focus", total9)
+result.store("Dreamworks", total10)
+result.store("Weinstein", total11)
+result.store("Sony", total12)
+result.store("Miramax", total13)
+result.store("MGM", total14)
 
 pp result
 
