@@ -81,6 +81,17 @@ row_index = 0
 total1 = 0
 total2 = 0
 total3 = 0
+total4 = 0
+total5 = 0
+total6 = 0
+total7 = 0
+total8 = 0
+total9 = 0
+total10 = 0
+total11 = 0
+total12 = 0
+total13 = 0
+total14 = 0
 
 while row_index < collection.length do
 
