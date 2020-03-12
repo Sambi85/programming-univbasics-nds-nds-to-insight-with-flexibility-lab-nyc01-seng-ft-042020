@@ -110,6 +110,41 @@ total4 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Paramount"
 total5 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Buena Vista"
+total6 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Warner Brothers"
+total7 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Fox"
+total8 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "TriStar"
+total9 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Focus"
+total10 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Dreamworks"
+total11 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Weinstein"
+total12 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Sony"
+total3 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "Miramax"
+total4 += collection[row_index][:worldwide_gross]
+
+else if collection[row_index][:studio] == "MGM"
+total5 += collection[row_index][:worldwide_gross]
+                      end
+                    end
+                  end
+                end
+              end
             end
           end        
         end
