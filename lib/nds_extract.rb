@@ -100,7 +100,7 @@ total2 += collection[row_index][:worldwide_gross]
 
 else
  
-studio3.store(collection[row_index][:studio])
+studio3 = collection[row_index][:studio]
 total3 += collection[row_index][:worldwide_gross]
 
     end
