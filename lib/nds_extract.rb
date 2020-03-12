@@ -112,8 +112,18 @@ end
 result = Hash.new
 result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
-result.store("Universal",total3)
-result.store("Columbia", total3)
+result.store("Paramount",total3)
+result.store("Buena Vista", total3)
+result.store("Warner Brothers", total3)
+result.store("Fox", total3)
+result.store("TriStar", total3)
+result.store("Focus", total3)
+result.store("Dreamworks", total3)
+result.store("Weinstein", total3)
+result.store("Sony", total3)
+result.store("Miramax", total3)
+result.store("MGM", total3)
+
 pp result
 
 end
