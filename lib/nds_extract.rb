@@ -100,13 +100,10 @@ total2 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Universal"
  
-studio3 = "Universal"
+studio3 << "Universal"
 total3 += collection[row_index][:worldwide_gross]
 end
-      else if collection[row_index][:studio] == "Universal"
  
-studio3 = "Universal"
-total3 += collection[row_index][:worldwide_gross
 end
 
     end
@@ -118,6 +115,7 @@ end
 result = Hash.new
 result.store("Alpha Films", total1)
 result.store("Omega Films", total2)
+result.store("Universal",total3)
 result.store("Paramount",total3)
 result.store("Buena Vista", total3)
 result.store("Warner Brothers", total3)
