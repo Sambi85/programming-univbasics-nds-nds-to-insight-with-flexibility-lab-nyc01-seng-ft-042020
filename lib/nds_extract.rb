@@ -140,6 +140,7 @@ total4 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "MGM"
 total5 += collection[row_index][:worldwide_gross]
+                        end
                       end
                     end
                   end
