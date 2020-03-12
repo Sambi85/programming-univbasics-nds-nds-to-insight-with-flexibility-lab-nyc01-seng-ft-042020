@@ -99,9 +99,13 @@ studio2 = collection[row_index][:studio]
 total2 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Universal"
- 
 studio3 = "Universal"
 total3 += collection[row_index][:worldwide_gross]
+        
+else if collection[row_index][:studio] == "Paramount"
+studio3 = "Paramount"
+total3 += collection[row_index][:worldwide_gross]
+          end        
         end
       end
     end
