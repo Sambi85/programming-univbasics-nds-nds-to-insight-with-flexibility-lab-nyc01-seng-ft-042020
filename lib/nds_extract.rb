@@ -133,10 +133,10 @@ else if collection[row_index][:studio] == "Weinstein"
 total12 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Sony"
-total3 += collection[row_index][:worldwide_gross]
+total13 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "Miramax"
-total4 += collection[row_index][:worldwide_gross]
+total14 += collection[row_index][:worldwide_gross]
 
 else if collection[row_index][:studio] == "MGM"
 total5 += collection[row_index][:worldwide_gross]
